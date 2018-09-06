@@ -18,7 +18,7 @@ since: 2012 # The start year showing in your copyright section.
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.ccsyue.com/
+url: https://blog.ccsyue.com/
 root: /
 permalink: :year/:title.html
 permalink_defaults:
