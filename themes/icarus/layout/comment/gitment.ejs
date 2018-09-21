@@ -1,3 +1,4 @@
+<% if (typeof(script) !== 'undefined' && script) { %>
       <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
       <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
       <script>
@@ -10,6 +11,9 @@
             client_secret: '<%= theme.comment.gitment.client_secret %>',
           },
         })
-        gitment.render('container')
+        gitment.render('comments')
       </script>
+<% } else { %>
+    <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<% } %>
 
