@@ -53,9 +53,8 @@ comment:
     gitment:
         owner:deffyc
         repo:blog
-        oauth:
-            client_id:dd6b1da7626b499e8c4f
-            client_secret:003484dba62676643e357e4676220f772e9ce84e
+        client_id:dd6b1da7626b499e8c4f
+        client_secret:003484dba62676643e357e4676220f772e9ce84e
 
 # Share
 #share: bdshare #default # options: jiathis, bdshare, addtoany, default
