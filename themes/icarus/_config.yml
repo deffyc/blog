@@ -50,6 +50,12 @@ comment:
     duoshuo: #freeinhere # enter duoshuo shortname here
     youyan: # enter youyan uid here
     gentie:  # enter wangyi gentie productkey here
+    gitment:
+        owner:deffyc
+        repo:blog
+        oauth:
+            client_id:dd6b1da7626b499e8c4f
+            client_secret:003484dba62676643e357e4676220f772e9ce84e
 
 # Share
 #share: bdshare #default # options: jiathis, bdshare, addtoany, default
@@ -70,4 +76,4 @@ miscellaneous:
         twitter_id:
         google_plus:
     links:
-        导航: http://e.ccsyue.com/
+        导航: https://e.ccsyue.com/
