@@ -7,5 +7,7 @@
         <a href="<%- post.permalink %>#comments" class="article-comment-link"><%= __('article.comments') %></a>
     <% } else if (theme.comment.gentie) { %>
         <a href="<%- post.permalink %>#comments" class="article-comment-link"><%= __('article.comments') %></a>
+    <% } else if (theme.comment.gitment) { %>
+        <a href="<%- post.permalink %>#comments" class="article-comment-link"><%= __('article.comments') %></a>
     <% } %>
 <% } %>
