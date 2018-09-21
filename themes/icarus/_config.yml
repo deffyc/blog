@@ -1,10 +1,10 @@
 # Menus
 menu:
   首页: .
-  归档: archives
-  分类: categories
-  标签: tags
-  关于: about
+  归档: archives/
+  分类: categories/
+  标签: tags/
+  关于: about/
 
 # Customize
 customize:
@@ -70,4 +70,4 @@ miscellaneous:
         twitter_id:
         google_plus:
     links:
-        导航: http://ccsyue.com/
+        导航: http://e.ccsyue.com/
