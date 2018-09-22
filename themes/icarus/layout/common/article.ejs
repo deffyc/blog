@@ -11,6 +11,7 @@
                         <%- partial('post/date', { class_name: 'article-date', date_format: null }) %>
                         <%- partial('post/category') %>
                         <%- partial('post/tag') %>
+                        <%- link_to('https://prose.io/#deffyc/blog/edit/src/'+post.path, '编辑', {external: true}) %>
                     </div>
                 <% } %>
             </header>
