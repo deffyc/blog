@@ -1,6 +1,8 @@
 <% if (typeof(script) !== 'undefined' && script) { %>
-      <%- css('vendor/default') %>
-      <%- js('vendor/gitment.browser') %>
+<!--      <%- css('vendor/default') %>
+      <%- js('vendor/gitment.browser') %>-->
+      <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+      <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
       <script>
         var gitment = new Gitment({
           id: "<%= date_xml(page.date) %>", // 可选。默认为 location.href
