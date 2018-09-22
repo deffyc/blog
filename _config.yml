@@ -93,6 +93,11 @@ prose:
 #  siteurl: '/'
 	media: 'source/_posts/images'
 	metadata:
-    	'source/_posts':
-        	title: '未命名'
+    	- name: "date"
+        field:
+          element: "text"
+          label: "date"
+          help: "The date of the event"
+          placeholder: CURRENT_DATETIME
+          type: "datetime"
 
