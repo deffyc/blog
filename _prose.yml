@@ -1,7 +1,7 @@
 # Prose
 prose:
   rooturl: 'source/_posts'
-#  siteurl: '/'
+  siteurl: '/'
   media: 'source/_posts/images/2018'
   metadata:
     source/_posts:
