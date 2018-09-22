@@ -94,7 +94,7 @@ prose:
   media: 'source/_posts/images'
   metadata:
   	source/_posts:
-      - name: "title"
+		- name: "title"
         field:
           element: "text"
           label: "title"
