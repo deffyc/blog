@@ -94,7 +94,7 @@ prose:
 #  relativeLinks: 'http://meetcircle.co/links.jsonp'
   media: 'source/_post/images'
   metadata:
-  	'content/_post':
+  	'':
       - name: "title"
         field:
           element: "text"
