@@ -93,11 +93,8 @@ prose:
   siteurl: 'https://blog.ccsyue.com/'
 #  relativeLinks: 'http://meetcircle.co/links.jsonp'
   media: 'source/_post/images'
-  ignore:
-    - .gitignore
-    - _config.yml
   metadata:
-  	'content/_post'
+  	'content/_post':
       - name: "title"
         field:
           element: "text"
