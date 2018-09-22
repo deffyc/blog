@@ -14,6 +14,9 @@ function lazyloadImg(source) {
     });
     $('img').each(function(index, element) {
         oldsrc = $(element).attr('src');
+	if(stringStartsWith(oldsrc, '/source')){
+	    oldsrc= oldsrc.substr(7);	
+	}
         if (oldsrc && stringStartsWith(oldsrc, baseUrl)  && !$(element).hasClass('hx_lazyimg') && !$(element).hasClass('skip')) {
 	    $(element).addClass('hx_lazyimg');
             $(element).attr({
