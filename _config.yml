@@ -99,7 +99,6 @@ prose:
         field:
           element: "text"
           type: "text"
-          value: "text"
           label: "title"
       - name: "date"
         field:
