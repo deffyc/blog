@@ -19,10 +19,17 @@ prose:
           
        - name: "category"
          field:
-          element: "text"
+          element: "select"
           label: "category"
-          value: "未分类"
-
+          options: 
+            - "信息技术"
+            - "政治"
+            - "文学"
+            - "未分类"
+            - "歌曲"
+            - "相册"
+            - "英语"
+          
        - name: "tags"
          field:
           element: "multiselect"
