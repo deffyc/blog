@@ -90,6 +90,4 @@ deploy:
 # Prose
 prose:
 	rooturl: 'source/_posts'
-#  siteurl: '/'
 	media: 'source/_posts/images'
-
