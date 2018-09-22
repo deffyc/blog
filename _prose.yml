@@ -22,10 +22,10 @@ prose:
           element: "select"
           label: "category"
           options: 
+            - "未分类"
             - "信息技术"
             - "政治"
             - "文学"
-            - "未分类"
             - "歌曲"
             - "相册"
             - "英语"
