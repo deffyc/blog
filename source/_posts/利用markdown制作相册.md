@@ -22,7 +22,7 @@ windows平台下得使用excel。
 | 1 (10).jpg | ren "1 (10).jpg" 10.jpg |
 2. 使用excel行列转换功能，比如每行三张图片，以表格形式展现。
 ```
-="!["&ROW()&"](./images/2014/07/139fuguang/"&ROW()&".jpg)" //纵向拖动 
+="!["&ROW()&"](/source/images/2014/07/139fuguang/"&ROW()&".jpg)" //纵向拖动 
 =OFFSET($A$1,(ROW()-1)*3+COLUMN()-7,0) //矩阵填充
 ```                                  
 3. 放图片目录与md平级可以进行预览了。
