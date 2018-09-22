@@ -91,7 +91,6 @@ deploy:
 prose:
   rooturl: 'source/_post'
   siteurl: 'https://blog.ccsyue.com/'
-#  relativeLinks: 'http://meetcircle.co/links.jsonp'
   media: 'source/_post/images'
   metadata:
   	'':
