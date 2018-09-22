@@ -3,7 +3,7 @@
       <%- js('vendor/gitment.browser') %>
       <script>
         var gitment = new Gitment({
-          id: '<%= page.date %>', // 可选。默认为 location.href
+          id: (window.location.pathname.length < 50) ? window.location.pathname : "<%= page.date %>", // 可选。默认为 location.href
           owner: '<%= theme.comment.gitment.owner %>',
           repo: '<%= theme.comment.gitment.repo %>',
           oauth: {
