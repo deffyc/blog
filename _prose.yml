@@ -29,12 +29,9 @@ prose:
           label: "tags"
           alterable: true
           options: 
-            - name: "鑫鑫"
-               value: "鑫鑫"
-            - name: "英语流利说"
-               value: "英语流利说"
-            - name: "中共党员"
-               value: "中共党员"
+            - "鑫鑫"
+            - "英语流利说"
+            - "中共党员"
           
 
 
