@@ -89,6 +89,11 @@ deploy:
 
 # Prose
 prose:
-  rooturl: 'source/_posts'
+	rooturl: 'source/_posts'
 #  siteurl: '/'
-  media: 'source/_posts/images'
+	media: 'source/_posts/images'
+	metadata:
+    	'source/_posts':
+        	title: '未命名'
+            published: true 
+
