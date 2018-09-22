@@ -2,7 +2,7 @@
 prose:
   rooturl: 'source/_posts'
   siteurl: 'https://blog.ccsyue.com/'
-  media: 'source/_posts/images/2018'
+  media: 'source/images/2018'
   metadata:
     source/_posts:
        - name: "title"
