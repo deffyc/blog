@@ -3,7 +3,7 @@ prose:
   rooturl: 'source/_posts'
   siteurl: 'https://blog.ccsyue.com'
   baseurl: '/'
-  media: '../images/2018'
+  media: 'images/2018'
   metadata:
     source/_posts:
        - name: "title"
