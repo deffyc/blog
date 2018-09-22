@@ -8,10 +8,8 @@ prose:
        - name: "title"
           field:
             element: "text"
-            label: "title"
             type: "text"
        - name: "date"
-         field:
-          element: "date"
-          label: "category"
-          value: CURRENT_DATETIME
+          field:
+            element: "hidden"
+            value: CURRENT_DATETIME
