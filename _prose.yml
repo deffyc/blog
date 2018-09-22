@@ -10,3 +10,10 @@ prose:
           element: "text"
           label: "title"
           type: "text"
+       - name: "date"
+        field:
+          element: "date"
+          label: "category"
+          value: CURRENT_DATETIME
+          placeholder: "YYYY-MM-DD HH:MM"
+          type: "date"
