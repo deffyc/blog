@@ -6,14 +6,12 @@ prose:
   metadata:
     source/_posts:
        - name: "title"
-         field:
-          element: "text"
-          label: "title"
-          type: "text"
+          field:
+            element: "text"
+            label: "title"
+            type: "text"
        - name: "date"
-        field:
+         field:
           element: "date"
           label: "category"
           value: CURRENT_DATETIME
-          placeholder: "YYYY-MM-DD HH:MM"
-          type: "date"
