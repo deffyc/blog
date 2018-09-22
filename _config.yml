@@ -92,10 +92,3 @@ prose:
   rooturl: 'source/_posts'
 #  siteurl: '/'
   media: 'source/_posts/images'
-  metadata:
-  	source/_posts:
-		- name: "title"
-		field:
-			element: "text"
-			label: "title"
-			type: "text"
