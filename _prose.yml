@@ -11,3 +11,9 @@ prose:
           label: "title"
           type: "text"
 
+       - name: "date"
+         field:
+          element: "hidden"
+          label: "date"
+          value: CURRENT_DATETIME
+
