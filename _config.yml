@@ -89,38 +89,38 @@ deploy:
 
 # Prose
 prose:
-  rooturl: 'source/_post'
+  rooturl: 'source'
   siteurl: 'https://blog.ccsyue.com/'
 #  relativeLinks: 'http://meetcircle.co/links.jsonp'
   media: 'source/_post/images'
   ignore:
-
     - .gitignore
     - _config.yml
   metadata:
-    - name: "title"
-      field:
-        element: "text"
-        type: "text"
-        value: "text"
-        label: "title"
-    - name: "date"
-      field:
-        element: "text"
-        type: "datetime"
-        label: "category"
-        value: CURRENT_DATETIME
-        placeholder: "YYYY-MM-DD HH:MM"
-    - name: "tags"
-      field:
-        element: "multiselect"
-        type: "multiselect"
-        label: "tags"
-        value: "中共党员,鑫鑫,英语流利说"
-        alterable: true
-    - name: "category"
-      field:
-        element: "text"
-        type: "text"
-        label: "category"
-        value: "未分类"
+  	'content/_post'
+      - name: "title"
+        field:
+          element: "text"
+          type: "text"
+          value: "text"
+          label: "title"
+      - name: "date"
+        field:
+          element: "text"
+          type: "datetime"
+          label: "category"
+          value: CURRENT_DATETIME
+          placeholder: "YYYY-MM-DD HH:MM"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          type: "multiselect"
+          label: "tags"
+          value: "中共党员,鑫鑫,英语流利说"
+          alterable: true
+      - name: "category"
+        field:
+          element: "text"
+          type: "text"
+          label: "category"
+          value: "未分类"
