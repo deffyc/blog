@@ -2,7 +2,7 @@
 prose:
   rooturl: 'source/_posts'
   siteurl: '/'
-  media: 'images/2018'
+  media: './images/2018'
   metadata:
     source/_posts:
        - name: "title"
@@ -40,7 +40,3 @@ prose:
             - "鑫鑫"
             - "英语流利说"
             - "中共党员"
-          
-
-
-
