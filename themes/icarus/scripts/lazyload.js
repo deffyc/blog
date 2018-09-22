@@ -21,7 +21,7 @@ function lazyloadImg(source) {
 	    $(element).addClass('hx_lazyimg');
             $(element).attr({
                 src: loading,
-                'data-original': cdnUrl + oldsrc +"-Watermark"
+                'data-original': cdnUrl + oldsrc
             });
 			
         }
