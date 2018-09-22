@@ -23,3 +23,13 @@ prose:
           label: "category"
           value: "未分类"
 
+       - name: "tags"
+         field:
+          element: "multiselect"
+          label: "tags"
+          alterable: true
+          options: "鑫鑫","英语流利说","中共党员"
+          
+
+
+
