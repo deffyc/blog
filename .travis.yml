@@ -15,7 +15,7 @@ script:
   - gulp
 after_script:
   - mkdir ./public/post_images
-  - mv -f ./source/_posts/images/* ./public/post_images/ 
+  - mv -f ./source/_posts/images/* ./public/images/ 
   - cd ./public
   - git init
   - git config user.name "${USER_NAME}"
