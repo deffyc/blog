@@ -89,5 +89,35 @@ deploy:
 
 # Prose
 prose:
-	rooturl: 'source/_posts'
-	media: 'source/_posts/images'
+  rooturl: 'source/_posts'
+#  siteurl: '/'
+  media: 'source/_posts/images'
+  metadata:
+  	source/_posts:
+       - name: "title"
+         field:
+          element: "text"
+          label: "title"
+          type: "text"
+          
+      - name: "date"
+        field:
+          element: "date"
+          label: "category"
+          value: CURRENT_DATETIME
+          placeholder: "YYYY-MM-DD HH:MM"
+          type: "date"
+          
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "tags"
+          value: "中共党员,鑫鑫,英语流利说"
+          alterable: true
+          
+      - name: "category"
+        field:
+          element: "text"
+          label: "category"
+          value: "未分类"
+          type: "text"
