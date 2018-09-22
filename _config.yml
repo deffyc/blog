@@ -93,29 +93,25 @@ prose:
   siteurl: 'https://blog.ccsyue.com/'
   media: 'source/_post/images'
   metadata:
-  	_posts:
+  	source/_posts:
       - name: "title"
         field:
           element: "text"
-          type: "text"
           label: "title"
       - name: "date"
         field:
-          element: "text"
-          type: "datetime"
+          element: "date"
           label: "category"
           value: CURRENT_DATETIME
           placeholder: "YYYY-MM-DD HH:MM"
       - name: "tags"
         field:
           element: "multiselect"
-          type: "multiselect"
           label: "tags"
           value: "中共党员,鑫鑫,英语流利说"
           alterable: true
       - name: "category"
         field:
           element: "text"
-          type: "text"
           label: "category"
           value: "未分类"
