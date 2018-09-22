@@ -28,7 +28,13 @@ prose:
           element: "multiselect"
           label: "tags"
           alterable: true
-          options: "鑫鑫","英语流利说","中共党员"
+          options: 
+            - name: "鑫鑫",
+               value: "鑫鑫"
+            - name: "英语流利说"
+               value: "英语流利说"
+            - name: "中共党员"
+               value: "中共党员"
           
 
 
