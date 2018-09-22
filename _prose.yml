@@ -2,7 +2,7 @@
 prose:
   rooturl: 'source/_posts'
 #  siteurl: '/'
-  media: 'images/2018'
+  media: 'source/_posts/images/2018'
   metadata:
     source/_posts:
        - name: "title"
