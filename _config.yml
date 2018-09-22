@@ -93,7 +93,7 @@ prose:
   siteurl: 'https://blog.ccsyue.com/'
   media: 'source/_post/images'
   metadata:
-  	'':
+  	_posts:
       - name: "title"
         field:
           element: "text"
