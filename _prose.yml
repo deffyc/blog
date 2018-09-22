@@ -1,7 +1,8 @@
 # Prose
 prose:
   rooturl: 'source/_posts'
-  siteurl: 'https://blog.ccsyue.com/'
+  siteurl: 'https://blog.ccsyue.com'
+  relativeLinks: 'https://blog.ccsyue.com'
   baseurl: '/'
   media: 'source/images/2018'
   metadata:
