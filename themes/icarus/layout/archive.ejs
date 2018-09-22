@@ -16,6 +16,7 @@
                 <div class="article-meta">
                     <%- partial('common/post/date', { post: post, class_name: 'article-date', date_format: null }) %>
                     <%- partial('common/post/category', { post: post }) %>
+                    <%- link_to('https://prose.io/#deffyc/blog/edit/src/'+page.path, '编辑', {external: true}) %>
                 </div>
             </div>
         </div>
