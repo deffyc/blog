@@ -92,12 +92,4 @@ prose:
 	rooturl: 'source/_posts'
 #  siteurl: '/'
 	media: 'source/_posts/images'
-	metadata:
-    	- name: "date"
-        field:
-          element: "text"
-          label: "date"
-          help: "The date of the event"
-          placeholder: CURRENT_DATETIME
-          type: "datetime"
 
