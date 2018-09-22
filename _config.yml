@@ -95,7 +95,7 @@ prose:
   metadata:
   	source/_posts:
 		- name: "title"
-        field:
-          element: "text"
-          label: "title"
-          type: "text"
+		field:
+			element: "text"
+			label: "title"
+			type: "text"
