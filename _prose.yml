@@ -29,7 +29,7 @@ prose:
           label: "tags"
           alterable: true
           options: 
-            - name: "鑫鑫",
+            - name: "鑫鑫"
                value: "鑫鑫"
             - name: "英语流利说"
                value: "英语流利说"
