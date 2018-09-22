@@ -89,9 +89,9 @@ deploy:
 
 # Prose
 prose:
-  rooturl: 'source'
+  rooturl: 'source/_posts'
   siteurl: 'https://blog.ccsyue.com/'
-  media: 'source/_post/images'
+  media: 'source/_posts/images'
   metadata:
   	source/_posts:
       - name: "title"
