@@ -16,4 +16,10 @@ prose:
           element: "hidden"
           label: "date"
           value: CURRENT_DATETIME
+          
+       - name: "category"
+         field:
+          element: "text"
+          label: "category"
+          value: "未分类"
 
