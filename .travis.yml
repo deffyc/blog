@@ -1,10 +1,10 @@
 language: node_js
-node_js: stable
+node_js: 
+  - '10.0.0'
 
 # S: Build Lifecycle
 install:
   - npm install
-  - npm install nodejieba
   - npm install -S hexo-generator-json-content
   - npm install hexo-ruby-character --save
 #before_script:
