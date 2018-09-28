@@ -2,7 +2,12 @@ language: node_js
 node_js: stable
 sudo: required
 before_install:
-  - npm install nodejieba
+#  - npm install nodejieba
+addons:
+  apt:
+    packages:
+    - gcc-4.8
+    - g++-4.8
 install:
   - npm install --production
 #  - npm install -S hexo-generator-json-content
