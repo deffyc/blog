@@ -3,7 +3,7 @@ node_js: stable
   
 sudo: required
 before_install:
-  -apt-get install python make g++ 
+  - sudo apt-get install -y python make g++ 
 # S: Build Lifecycle
 install:
   - npm install
