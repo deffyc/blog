@@ -9,10 +9,12 @@ addons:
     sources:
     - ubuntu-toolchain-r-test
     packages:
-    - g++-5
+    - gcc-4.9
+    - g++-4.9
 # S: Build Lifecycle
 install:
   - npm install
+  - npm config set python `which python`
   - npm install -S hexo-generator-json-content
   - npm install hexo-ruby-character --save
 #before_script:
