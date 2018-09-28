@@ -5,7 +5,7 @@ before_install:
 
 install:
   - npm install --production
-  - npm install -S hexo-generator-json-content
+#  - npm install -S hexo-generator-json-content
 before_script:
   - npm install -g gulp
 
