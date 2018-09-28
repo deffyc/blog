@@ -3,11 +3,10 @@ node_js: stable
   
 sudo: required
 before_install:
-  - sudo apt-get install -y python make g++ 
+#  - sudo apt-get install -y python make g++ 
 # S: Build Lifecycle
 install:
   - npm install
-  - npm config set python `which python`
   - npm install -S hexo-generator-json-content
   - npm install hexo-ruby-character --save
 #before_script:
