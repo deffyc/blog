@@ -6,7 +6,7 @@ before_install:
 #  - sudo apt-get install -y python make g++ 
 # S: Build Lifecycle
 install:
-  - sudo npm uninstall -g nodejieba
+  - npm uninstall -g nodejieba
   - npm install --production
   - npm install -S hexo-generator-json-content
 #  - npm install hexo-ruby-character --save
