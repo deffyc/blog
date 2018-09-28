@@ -1,12 +1,11 @@
 language: node_js
-node_js: stable
-#  - "0.12"
+node_js: #stable
+  - "9.11.2"
 sudo: required
 before_install:
 #  - sudo apt-get install -y python make g++ 
 # S: Build Lifecycle
 install:
-  - npm uninstall -g nodejieba
   - npm install --production
   - npm install -S hexo-generator-json-content
 #  - npm install hexo-ruby-character --save
