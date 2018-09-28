@@ -1,8 +1,10 @@
 ---
 published: true
 date: '2018-09-29 04:15 +0800'
-category: 未分类
+category: 学习
 title: prose部署在heroku
+tags:
+  - git
 ---
 ## pull prose
  修改prose/app/views/header.js,107行代码
