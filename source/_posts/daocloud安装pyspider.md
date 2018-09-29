@@ -1,7 +1,10 @@
 ---
+published: true
+date: 2017-08-02T21:35:40.000Z
 title: daocloud安装pyspider
-date: 2017-8-2 21:35:40
-tags: pyspider,docker
+tags:
+  - pyspider
+  - docker
 category: 信息技术
 ---
 ```
@@ -105,5 +108,3 @@ nginx:
 
 ```
 docker-compose scale phantomjs=2 processor=2 webui=4
-
-
