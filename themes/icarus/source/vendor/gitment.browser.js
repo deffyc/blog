@@ -3422,7 +3422,7 @@ var Gitment = function () {
         _this.update();
       }).catch(function (e) {
         _this.state.user.isLoggingIn = false;
-        alert(e);
+        console.log(e);
       });
     } else {
       this.update();
