@@ -50,7 +50,7 @@ Atoms are the building blocks of matter.
 At the center of an atom is its nucleus, which has a positive electric charge.
 Outside the nucleus are electrons, which have a negative charge.
 Asteroids and comets, are objects that orbit our sun, but are smaller than planets.
-Asteroids that pass closed to the Earth are called near-earth objects.
+Asteroids that pass close to the Earth are called near-earth objects.
 The layer of gases just above Earth's surface is our atmosphere.
 The atmosphere is made up of gases, such as oxygen and nitrogen.
 Without an atmosphere, there would be no life on Earth.
