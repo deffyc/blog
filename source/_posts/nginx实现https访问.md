@@ -1,8 +1,11 @@
 ---
+published: true
+date: 2017-08-02T21:43:24.000Z
 title: 云服务器实现https访问
-date: 2017-8-2 21:43:24
-tags: Let's Encrypt,https
 category: 信息技术
+tags:
+  - Let's Encrypt
+  - https
 ---
 1. 申请证书(需要python和openssl支持)
 ```bash
