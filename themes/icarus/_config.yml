@@ -30,6 +30,7 @@ customize:
         #github: https://github.com/deffyc
         #rss: 
     social_link_tooltip: true # enable the social link tooltip, options: true, false
+    cdn: //blogstatic.ccsyue.com
 
 # Widgets
 widgets:
