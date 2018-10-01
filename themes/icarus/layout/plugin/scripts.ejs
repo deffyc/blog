@@ -1,9 +1,9 @@
 <% if (typeof(isHead) !== 'undefined' && isHead) { %>
     <% if (theme.plugins.lightgallery) { %>
-        <%- css(config.customize.cdn+'vendor/lightgallery/css/lightgallery.min') %>
+        <%- css(theme.cdn+'vendor/lightgallery/css/lightgallery.min') %>
     <% } %>
     <% if (theme.plugins.justifiedgallery) { %>
-        <%- css(config.customize.cdn+'vendor/justified-gallery/justifiedGallery.min.css') %>
+        <%- css(theme.cdn+'vendor/justified-gallery/justifiedGallery.min.css') %>
     <% } %>
     <% if (theme.plugins.google_analytics) { %>
         <%- partial('plugin/google-analytics') %>
@@ -16,17 +16,17 @@
     <% } %>
 <% } else { %>
     <% if (theme.plugins.lightgallery) { %>
-        <%- js(config.customize.cdn+'vendor/lightgallery/js/lightgallery.min') %>
-        <%- js(config.customize.cdn+'vendor/lightgallery/js/lg-thumbnail.min') %>
-        <%- js(config.customize.cdn+'vendor/lightgallery/js/lg-pager.min') %>
-        <%- js(config.customize.cdn+'vendor/lightgallery/js/lg-autoplay.min') %>
-        <%- js(config.customize.cdn+'vendor/lightgallery/js/lg-fullscreen.min') %>
-        <%- js(config.customize.cdn+'vendor/lightgallery/js/lg-zoom.min') %>
-        <%- js(config.customize.cdn+'vendor/lightgallery/js/lg-hash.min') %>
-        <%- js(config.customize.cdn+'vendor/lightgallery/js/lg-share.min') %>
-        <%- js(config.customize.cdn+'vendor/lightgallery/js/lg-video.min') %>
+        <%- js(theme.cdn+'vendor/lightgallery/js/lightgallery.min') %>
+        <%- js(theme.cdn+'vendor/lightgallery/js/lg-thumbnail.min') %>
+        <%- js(theme.cdn+'vendor/lightgallery/js/lg-pager.min') %>
+        <%- js(theme.cdn+'vendor/lightgallery/js/lg-autoplay.min') %>
+        <%- js(theme.cdn+'vendor/lightgallery/js/lg-fullscreen.min') %>
+        <%- js(theme.cdn+'vendor/lightgallery/js/lg-zoom.min') %>
+        <%- js(theme.cdn+'vendor/lightgallery/js/lg-hash.min') %>
+        <%- js(theme.cdn+'vendor/lightgallery/js/lg-share.min') %>
+        <%- js(theme.cdn+'vendor/lightgallery/js/lg-video.min') %>
     <% } %>
     <% if (theme.plugins.justifiedgallery) { %>
-        <%- js(config.customize.cdn+'vendor/justified-gallery/jquery.justifiedGallery.min.js') %>
+        <%- js(theme.cdn+'vendor/justified-gallery/jquery.justifiedGallery.min.js') %>
     <% } %>
 <% } %>
