@@ -24,3 +24,6 @@ tags:
 
 > pip install pyspider
 > pyspider
+
+## 安装phantomjs
+http://phantomjs.org/download.html
