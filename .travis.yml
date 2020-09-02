@@ -1,6 +1,6 @@
 language: node_js
-node_js: #stable
-  - "7.1.0"
+node_js: stable
+#  - "7.1.0"
 sudo: required
 before_install:
 #  - npm install nodejieba
@@ -13,11 +13,11 @@ install:
   - npm install --production
 #  - npm install -S hexo-generator-json-content
 before_script:
-  - npm install -g gulp
+#  - npm install -g gulp
 
 script:
   - hexo generate
-  - gulp
+#  - gulp
 after_script:
   - mkdir ./public/post_images
   - mv -f ./source/_posts/images/* ./public/images/ 
