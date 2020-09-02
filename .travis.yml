@@ -1,6 +1,6 @@
 language: node_js
-node_js: stable
-#  - "7.1.0"
+node_js: #stable
+  - "7.1.0"
 sudo: required
 before_install:
 #  - npm install nodejieba
@@ -10,10 +10,10 @@ addons:
     - gcc-4.8
     - g++-4.8
 install:
-  - npm install --production 
+  - npm install --production
 #  - npm install -S hexo-generator-json-content
 before_script:
-  - npm install -g
+  - npm install -g gulp
 
 script:
   - hexo generate
