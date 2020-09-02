@@ -1,6 +1,6 @@
 language: node_js
 node_js: #stable
-  - "8.3.0"
+  - v6 # Latest LTS
 sudo: required
 before_install:
 #  - npm install nodejieba
