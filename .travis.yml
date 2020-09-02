@@ -1,6 +1,6 @@
 language: node_js
-node_js: #stable
-  - v6 # Latest LTS
+node_js: stable
+#  - v6 # Latest LTS
 sudo: required
 before_install:
 #  - npm install nodejieba
@@ -17,7 +17,7 @@ before_script:
 
 script:
   - hexo generate
-  - gulp
+#  - gulp
 after_script:
   - mkdir ./public/post_images
   - mv -f ./source/_posts/images/* ./public/images/ 
