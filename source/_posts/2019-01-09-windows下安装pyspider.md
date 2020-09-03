@@ -40,4 +40,5 @@ pyspider启动报cannot import name 'DispatcherMiddleware'解决办法
 > python -m pip uninstall werkzeug -y # 卸载
 > python -m pip install werkzeug==0.16.1 #安装0.16.1版本
 
- 
+pip install librosa 安装出错
+> pip3 install llvmlite-0.31.0-cp35-cp35m-win_amd64.whl
