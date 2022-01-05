@@ -3413,7 +3413,7 @@ var Gitment = function () {
       }, options);
 
       this.state.user.isLoggingIn = true;
-      _utils.http.post('https://gitment.ccsyue.com/', {
+      _utils.http.post('https://ccsygh-oauth.herokuapp.com/', {
         code: code,
         client_id: client_id,
         client_secret: client_secret
