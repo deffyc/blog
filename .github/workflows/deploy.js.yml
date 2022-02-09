@@ -48,7 +48,7 @@ jobs:
     - name: 开始部署
       run: |
         mkdir ./public/post_images
-        mv -f ./source/images/* ./public/images/ 
+        cp -r ./source/images ./public/images 
         cd ./public
         git init
         git config user.name "${{secrets.USER_NAME}}"
