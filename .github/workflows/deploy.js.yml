@@ -1,0 +1,55 @@
+name: 部署导航
+
+on:
+  push:
+    branches: [ src ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    name: A job to deploy blog.
+    strategy:
+      matrix:
+        node-version: [12.x]
+        gcc-version: [4.8]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - name: 开始运行
+      uses: actions/checkout@v1
+
+      
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        
+    - name: 缓存
+      uses: actions/cache@v1
+      id: cache-dependencies
+      with:
+        path: node_modules
+        key: ${{runner.OS}}-${{hashFiles('**/package.json')}}
+
+    - name: 安装插件
+      if: steps.cache-dependencies.outputs.cache-hit != 'true'
+      run: |
+        npm ci
+        
+    - name: 生成文件
+      run: |        
+        hexo generate
+        
+    - name: 开始部署
+      run: |
+        mkdir ./public/post_images
+        mv -f ./source/_posts/images/* ./public/images/ 
+        cd ./public
+        git init
+        git config user.name "${{USER_NAME}}"
+        git config user.email "${{EMAIL}}"
+        git add .
+        git commit -m "Update docs"
+        git push --force --quiet "https://${{GH_TOKEN}}@${{GH_REF}}" master:master
