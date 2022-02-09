@@ -36,10 +36,13 @@ jobs:
     - name: 安装插件
       if: steps.cache-dependencies.outputs.cache-hit != 'true'
       run: |
+        npm install hexo-cli -g
         npm install --production
+        
         
     - name: 生成文件
       run: |        
+        hexo clean
         hexo generate
         
     - name: 开始部署
